@@ -36,13 +36,14 @@ class GFG {
     }
     
     public static void main (String[] args) {
-	    Scanner sc = new Scanner(System.in);
-	    T = sc.nextInt();
-	    for(int i=0; i<T; i++)  {
-	        N = sc.nextInt();
-	        arr = new int[N];
-	        for(int j=0; j<N; j++)
-	            arr[j] = sc.nextInt();
-	        quickSort(arr, 0, N - 1);
-	    }
+	Scanner sc = new Scanner(System.in);
+	T = sc.nextInt();
+	for(int i=0; i<T; i++)  {
+	    N = sc.nextInt();
+	    arr = new int[N];
+	    for(int j=0; j<N; j++)
+	        arr[j] = sc.nextInt();
+	    quickSort(arr, 0, N - 1);
 	}
+    }
+}
