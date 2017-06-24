@@ -95,7 +95,7 @@ class GFG {
               
 	        quickSort(arr, 0, N - 1);
 	        
-          if(sumExists(arr, X))
+          	if(sumExists(arr, X))
 	            System.out.println("Yes");
 	        else
 	            System.out.println("No");
